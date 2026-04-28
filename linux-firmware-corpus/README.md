@@ -28,21 +28,6 @@ Firmware Samples: 10,913
 Sample History: 2005-2023
 ```
 
-## Read & Cite the Paper
-
-The paper was published at the [Network and Distributed System Security (NDSS) Symposium 2025](https://www.ndss-symposium.org/ndss2025/) and can be downloaded [here](https://www.ndss-symposium.org/wp-content/uploads/2025-669-paper-1.pdf).
-
-```bibtex
-@inproceedings{helmkeSoundFirmwareCorpora,
-  author = {Helmke, René and Padilla, Elmar and Aschenbruck, Nils},
-  title = {{Mens Sana In Corpore Sano: Sound Firmware Corpora for Vulnerability Research}},
-  booktitle = {{Proceedings of the Network and Distributed System Security Symposium (NDSS'25)}},
-  year = {2025},
-  publisher = {{The Internet Society}},
-  address = {{San Diego, California, USA}},
-  url = {https://www.ndss-symposium.org/wp-content/uploads/2025-669-paper-1.pdf}
-}
-```
 
 ## Get the Corpus
 

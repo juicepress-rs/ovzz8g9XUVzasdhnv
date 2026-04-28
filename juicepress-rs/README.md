@@ -9,7 +9,6 @@ This is JuicePress, a lightweight and modular framework for automated target sel
 First, get the repo:
 
 ```bash
-$ git clone --recurse-submodules https://github.com/juicepress-rs/juicepress-rs.git
 $ cd juicepress-rs
 ```
 

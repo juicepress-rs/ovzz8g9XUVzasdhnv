@@ -1,8 +1,5 @@
 [project]
 name = "lfwc_scraper"
-authors = [
-    {name = "René Helmke", email = "rene.helmke@fkie.fraunhofer.de"}
-]
 readme = "README.md"
 requires-python = ">=3.10"
 license = {file = "LICENSE"}
