@@ -1,0 +1,28 @@
+{
+  "db_name": "PostgreSQL",
+  "query": "SELECT location, file_name FROM ubuntu_file WHERE location ~* '^usr/share/man/' and file_name like $1",
+  "describe": {
+    "columns": [
+      {
+        "ordinal": 0,
+        "name": "location",
+        "type_info": "Varchar"
+      },
+      {
+        "ordinal": 1,
+        "name": "file_name",
+        "type_info": "Varchar"
+      }
+    ],
+    "parameters": {
+      "Left": [
+        "Text"
+      ]
+    },
+    "nullable": [
+      false,
+      false
+    ]
+  },
+  "hash": "1386166917b0a7afaba9407856017fdbcc4810a828dd1abaee30b1c6b1fd7317"
+}

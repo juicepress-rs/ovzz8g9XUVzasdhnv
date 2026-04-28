@@ -1,0 +1,19 @@
+# this configuration will be used in docker. change it as you please. Also note that you can overwrite all directives with commandline arguments.
+
+scoring: weighted_linear_combination
+selection:
+  - is_userspace_elf
+cfactor:
+  - binary_string
+  - filename
+  - taint_symbol
+iofactor:
+  - nsrl
+  - alpine
+  - ubuntu
+  - open_wrt
+  - open_embedded
+  - ptx_dist
+  - buildroot
+  - manpage
+

@@ -1,0 +1,12 @@
+pandas
+matplotlib
+numpy
+jupyterlab
+isort
+seaborn
+black
+isort
+jupyterlab-code-formatter
+pandoc
+tabulate
+ssdeep @ git+https://github.com/jstucke/python-ssdeep@master

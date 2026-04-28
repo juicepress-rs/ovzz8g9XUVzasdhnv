@@ -1,0 +1,32 @@
+[project]
+name = "fw-fs-downloader"
+version = "0.1.0"
+description = "Uses a list of UIDs as input and outputs the included file systems as archives."
+authors = [
+    {name = "Jörg Stucke"}
+]
+license = {text = "GPL-3.0"}
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "common-helper-files @ git+https://github.com/fkie-cad/common_helper_files.git",
+    "psycopg2-binary (>=2.9.10,<3.0.0)",
+    "pydantic (>=2.11.7,<3.0.0)",
+    "python-tlsh (>=4.5.0,<5.0.0)",
+    "rich (>=14.1.0,<15.0.0)",
+    "sqlalchemy (>=2.0.43,<3.0.0)",
+    "toml (>=0.10.2,<0.11.0)",
+    "werkzeug (>=3.1.3,<4.0.0)",
+    "semver (>=3.0.4,<4.0.0)",
+    "numpy (==2.2.6)",
+    "pandas (>=2.3.2,<3.0.0)",
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+fw_fs_downloader = "fw_fs_downloader.find_filesystems:main"
+
